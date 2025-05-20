@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main{
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+main div img{
+    width: 600px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+form{
+    background-color: #191970;
+    padding: 70px 70px 70px 70px;
+
+}
+
+input{
+    font-size: 0.8em;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+    width: 300px;
+    height: 50px;
+    padding: 10px 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    box-shadow:  #1F51FF;
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+}
+
+form .btn_enviar{
+    margin-top: 15px;
+    text-align: center;
+}
+
+form .btn_enviar button {
+    font-size: 1em;
+    width: 160px;
+    height: 60px;
+    background-color: #1F51FF;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+form .btn_enviar button:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #191970;
+    justify-content: space-between;
+}
+
+header h2{
+    font-size: 1.8em;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+header h2:hover{
+    color: #000000;
+}
+
+header nav{
+    align-items: center;
+    display: flex;
+}
+
+header nav a{
+    margin-right: 1.3em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+header nav a:hover{
+    color: #000000;
+}
+
+footer{
+    background-color: #191970;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}

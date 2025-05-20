@@ -1,0 +1,54 @@
+Formulário de Contato Profissional com Validação
+🎯 Objetivo:
+
+Criar uma página de contato funcional e bem apresentada,
+simulando o formulário que você colocaria num site real de empresa ou portfólio.
+
+
+✅ Funcionalidades obrigatórias:
+
+    Campos obrigatórios:
+
+        Nome
+
+        E-mail
+
+        Assunto
+
+        Mensagem
+
+    Validações com JavaScript:
+
+        Todos os campos devem ser preenchidos.
+
+        Verificar se o e-mail tem formato válido.
+
+        Mostrar mensagens de erro ao lado dos campos (ex: “Preencha este campo”).
+
+    Mensagem de sucesso:
+
+        Ao enviar com sucesso, mostrar uma notificação bonita (“Mensagem enviada com sucesso!”).
+
+        Pode ser um alert() ou um card animado.
+
+    Botão de limpar formulário.
+
+🎨 Requisitos de estilo:
+
+    Layout profissional: centralizado, com espaçamento e alinhamento adequado.
+
+    Use CSS Flexbox ou Grid.
+
+    Animações suaves no foco dos inputs.
+
+    Cores sóbrias e fontes legíveis.
+
+🚀 Extras (opcional):
+
+    Mostrar contador de caracteres no campo “Mensagem”.
+
+    Adicionar ícones nos campos (ex: ícone de envelope no e-mail).
+
+    Trocar o botão "Enviar" por um botão com animação de carregamento (ex: spinner).
+
+    Simular envio com setTimeout() (ex: 2 segundos de carregamento).
