@@ -17,52 +17,63 @@ body{
 }
 
 main{
-    font-size: 1.5em;
+    font-size: 1.2em;
     display: flex;
     justify-content: space-between;
 }
 
-main div img{
-    width: 600px;
-    margin-right: 200px;
+main article{
+    background-color: #0a0a23;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 200px 2px 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main article section div img{
+    width: 300px;
+    margin-right: 100px;
     margin-top: 30px;
 }
 
-form{
+main article form{
     background-color: #191970;
-    padding: 70px 70px 70px 70px;
-
+    padding: 40px 40px 40px 40px;
+    margin-top: 30px;
+    margin-bottom: 68px;
 }
 
-input{
+main article form input{
     font-size: 0.8em;
     background-color: #ffffff;
     border: 2px solid #000000;
     border: 0;
     outline: 0;
     border-radius: 3px;
-    width: 300px;
-    height: 50px;
+    width: 270px;
+    height: 40px;
     padding: 10px 14px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-input:focus{
+main article form input:focus{
     box-shadow:  #1F51FF;
 }
 
-textarea{
-    width: 300px;
+main article form textarea{
+    width: 270px;
     height: 100px;
 }
 
-form .btn_enviar{
+main article form .btn_enviar{
     margin-top: 15px;
     text-align: center;
 }
 
-form .btn_enviar button {
+main article form .btn_enviar button {
     font-size: 1em;
     width: 160px;
     height: 60px;
@@ -77,7 +88,7 @@ form .btn_enviar button {
     transition: 0.2s ease-in-out;
 }
 
-form .btn_enviar button:hover{
+main article form .btn_enviar button:hover{
     background-color: #FFFFFF;
     color: #000000;
 }
